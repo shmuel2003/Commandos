@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Commandos
+{
+    internal class SeaCommando : Commando
+    {
+        // constructor
+        public SeaCommando(string name, string codeName, string[] tools) : base(name, codeName, tools)
+        {
+        }
+        // method to dive
+        public void Dive()
+        {
+            Console.WriteLine($"Commando {this.MyCodeName} is diving.");
+        }
+    }
+}
