@@ -38,7 +38,7 @@ namespace Commandos
         }
 
         // getStatusAttack
-        public void getStatusAttack()
+        public virtual void getStatusAttack()
         {
             Console.WriteLine($"Commando with codename {this.CodeName} is attack.");
         }

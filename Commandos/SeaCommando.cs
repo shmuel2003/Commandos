@@ -17,5 +17,11 @@ namespace Commandos
         {
             Console.WriteLine($"Commando {this.MyCodeName} is diving.");
         }
+
+        // override getStatusAttack method
+        public override void getStatusAttack()
+        {
+            Console.WriteLine($"Sea Commando with codename {this.MyCodeName} is attacking from the sea.");
+        }
     }
 }
